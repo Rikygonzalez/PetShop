@@ -44,5 +44,15 @@
 }
 
 .banner {
-    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 409px;
+    width: 100%;
+    background-image: url("./img/fondo-verde-grande.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+
 }
