@@ -3,21 +3,31 @@
     padding: 0;
 }
 
+/*Header*/
+
+/*Header fondo negro*/
+
 .first-nav {
     background-color: black;
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .first-nav p {
     margin-left: 90px;
 }
 
-.first-nav-select {
+.first-nav-select select {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
     margin-right: 20px;
 }
+
+/*Header fondo naranja*/
 
 .second-nav {
     background-color: #f0a83e;
@@ -43,6 +53,8 @@
     margin-right: 20px;
 }
 
+/*Header Banner*/
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -53,6 +65,82 @@
     background-image: url("./img/fondo-verde-grande.jpg");
     background-repeat: no-repeat;
     background-position: center;
-
-
 }
+
+.banner-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+
+.welcome-title {
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+}
+
+.banner-title .welcome-subtitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+div button {
+    background-color: #F0A83E;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+/*Main*/
+
+/*Logo y Titulo*/
+
+.title-main {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.title-main img {
+    max-width: 67px;
+    max-height: 71px;
+}
+
+.title-main div h1{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-main div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    line-height: 40px;
+}
+
+.title-main div ul a{
+    text-decoration: none;
+    color: #666666;
+    padding: 10px;
+}
+
+/*Productos*/
+
