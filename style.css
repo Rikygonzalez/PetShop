@@ -1,11 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/*Header*/
+html {
+    font-family: 'Roboto', sans-serif;
+}
 
-/*Header fondo negro*/
+/*Header - Fondo negro*/
 
 .first-nav {
     background-color: black;
@@ -27,7 +30,7 @@
     margin-right: 20px;
 }
 
-/*Header fondo naranja*/
+/*Header - Fondo naranja*/
 
 .second-nav {
     background-color: #f0a83e;
@@ -53,7 +56,7 @@
     margin-right: 20px;
 }
 
-/*Header Banner*/
+/*Header - Banner*/
 
 .banner {
     display: flex;
@@ -82,7 +85,6 @@
     border-radius: 5px;
     font-size: 30px;
     font-weight: 400;
-    font-family: 'Roboto';
     display: flex;
     align-items: center;
     height: 40px;
@@ -90,7 +92,6 @@
 }
 
 .banner-title .welcome-subtitle {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
 }
@@ -98,7 +99,6 @@
 div button {
     background-color: #F0A83E;
     color: #ffffff;
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     padding: 15px;
@@ -106,15 +106,13 @@ div button {
     border: none;
 }
 
-/*Main*/
-
-/*Logo y Titulo*/
+/*Main - Logo y Titulo*/
 
 .title-main {
     display: block;
     text-align: center;
     padding-top: 20px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .title-main img {
@@ -125,6 +123,7 @@ div button {
 .title-main div h1{
     display: flex;
     flex-direction: column;
+    font-size: 40px;
 }
 
 .title-main div ul{
@@ -133,7 +132,7 @@ div button {
     justify-content: center;
     text-decoration: none;
     list-style: none;
-    line-height: 40px;
+    line-height: 70px;
 }
 
 .title-main div ul a{
@@ -142,5 +141,49 @@ div button {
     padding: 10px;
 }
 
-/*Productos*/
+/*Main - Productos*/
 
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.products-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.products-box p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #3C2313;
+    line-height: 20px;
+}
+
+.products-box .price {
+    color: #F0A83E;
+}
+
+/*Main - Contáctanos*/
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-title {
+    justify-items: center;
+    align-self: cen;
+}
+
+.contacts form {
+    background-color: #3C2313;
+    border-radius: 15px;
+    border: none;
+}
