@@ -96,7 +96,7 @@ html {
     font-size: 16px;
 }
 
-div button {
+.banner-title button {
     background-color: #F0A83E;
     color: #ffffff;
     font-weight: 400;
@@ -175,15 +175,41 @@ div button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 70px;
 }
 
 .contacts-title {
-    justify-items: center;
-    align-self: cen;
+    padding-bottom: 10px;
 }
 
-.contacts form {
+.contacts input{
+    display: flex;
+    margin: 10px;
     background-color: #3C2313;
     border-radius: 15px;
+    width: 340px;
+    height: 40px;
     border: none;
+    padding-left: 20px;
+}
+
+.contacts input::placeholder {
+    color: #ffffff;
+    font-size: 9px;
+}
+
+.contacts button {
+    border: none;
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    color: #ffffff;
+}
+
+.contacts .button-1 {
+    background-color: #8A8787;
+}
+
+.contacts .button-2 {
+    background-color: #F0A83E;
 }
